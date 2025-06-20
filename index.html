@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LzyCrazy Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 font-sans">
+  <div class="flex min-h-screen items-center justify-center px-6 py-12 space-x-10">
+    <!-- Left Side -->
+    <div class="w-1/2">
+      <div class="flex flex-col items-center">
+        <!-- Logo -->
+        <img src="logo.jpg" alt="LzyCrazy Logo" width="300" height="200" />
+        
+
+        <!-- Search -->
+        <div class="relative mt-8 w-3/4">
+          <input type="text" placeholder="Search here..." class="w-full py-3 px-5 rounded-full border shadow focus:outline-none" />
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex flex-wrap gap-3 mt-6 justify-center">
+          <button class="px-4 py-2 bg-white shadow rounded-full text-sm">About Us</button>
+          <button class="px-4 py-2 bg-white shadow rounded-full text-sm">LzyCrazy Services</button>
+          <button class="px-4 py-2 bg-white shadow rounded-full text-sm">LzyCrazy Marketplace</button>
+          <button class="px-4 py-2 bg-white shadow rounded-full text-sm">We Are Hiring</button>
+          <button class="px-4 py-2 bg-white shadow rounded-full text-sm">LzyCrazy News</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side - Login Box -->
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
+      <form>
+        <div class="mb-4">
+          <input type="email" placeholder="Email Address" class="w-full border rounded px-4 py-3 focus:outline-none" />
+        </div>
+        <div class="mb-2">
+          <input type="password" placeholder="Password" class="w-full border rounded px-4 py-3 focus:outline-none" />
+        </div>
+        <div class="text-right text-sm mb-4">
+          <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
+        </div>
+        <button class="w-full py-3 rounded bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold mb-4">Login</button>
+      </form>
+
+      <div class="flex items-center justify-center my-4">
+        <hr class="w-full border-t" />
+        <span class="px-3 text-gray-400 text-sm">or continue with</span>
+        <hr class="w-full border-t" />
+      </div>
+
+      <div class="flex gap-3 mb-4">
+        <button class="flex-1 flex items-center justify-center gap-2 border py-2 rounded">
+          <img src="download.jpeg" class="w-5 h-5" />
+          Google
+        </button>
+        <button class="flex-1 flex items-center justify-center gap-2 border py-2 rounded">
+          <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" class="w-5 h-5" />
+          Facebook
+        </button>
+      </div>
+
+      <button class="w-full py-3 rounded bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold">Create New Account</button>
+    </div>
+  </div>
+
+    <!-- Footer -->
+  <footer class="bg-blue-100 text-sm text-gray-700 border-t border-gray-200 py-4 px-6">
+    <div class="flex flex-wrap justify-between items-center">
+      
+      <!-- Left Side -->
+      <div class="flex items-center space-x-2">
+        <span>India</span>
+        <span>|</span>
+        <span>LzyCrazy offered in:</span>
+        <a href="#" class="text-blue-600 hover:underline">हिन्दी</a>
+        <a href="#" class="text-blue-600 hover:underline">English</a>
+        <a href="#" class="text-blue-600 hover:underline">বাংলা</a>
+        <a href="#" class="text-blue-600 hover:underline">العربية</a>
+      </div>
+
+      <!-- Right Side -->
+      <div class="flex space-x-4 mt-2 md:mt-0">
+        <a href="#" class="text-gray-700 hover:underline">Privacy</a>
+        <a href="#" class="text-gray-700 hover:underline">Terms</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
